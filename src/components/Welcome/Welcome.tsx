@@ -16,8 +16,7 @@ function Welcome() {
         }
     };
     fetchAlunos();
-    }, []);
-
+    }, [alunos]);
     return (
         <main className={estilo.principal}>
             <p>Seja bem-vindo(a) à biblioteca.</p>

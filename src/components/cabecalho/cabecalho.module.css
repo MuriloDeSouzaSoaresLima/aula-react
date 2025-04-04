@@ -9,9 +9,9 @@
     align-items: center;
 }
 
-.cabecalho h1 {
-    color: var (--branco-suave);
-    margin-left: 5%;
+.imgLogo,
+.imgLogo img {
+    height: 100%;
 }
 .cabecalho a {
     color: var(--branco-suave);

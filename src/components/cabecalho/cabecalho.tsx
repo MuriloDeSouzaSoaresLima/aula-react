@@ -5,14 +5,18 @@ import { APP_ROUTES } from '../../AppConfig';
 function Cabecalho() {
     return (
         <header className={estilo.cabecalho}>
-            <a href={APP_ROUTES.ROUTE_HOME}
-                className={estilo.imgLogo}>
+            <a href={APP_ROUTES.ROUTE_HOME} className={estilo.imgLogo}>
                 <img src={logotipo} alt="logotipo" />
-                </a>
-            <a href={APP_ROUTES.ROUTE_LOGIN}>Login</a>
+            </a>
+            
+            <nav className={estilo.navegacao}>
+                <a href={APP_ROUTES.ROUTE_LOGIN}>Login</a>
+                <a href={APP_ROUTES.ROUTE_ALUNOS}>Alunos</a>
+                <a href={APP_ROUTES.ROUTE_LIVROS}>Livros</a>
+                <a href={APP_ROUTES.ROUTE_EMPRESTIMOS}>Empréstimos</a>
+            </nav>
         </header>
     );
-    
 }
 
-export default Cabecalho
+export default Cabecalho;

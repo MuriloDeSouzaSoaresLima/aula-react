@@ -1,0 +1,45 @@
+.dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.dataTable th {
+    background-color: #005F83;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.dataTable td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dataTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.dataTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+.paginator-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.paginator-buttons button {
+    background-color: #005F83;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.paginator-buttons button:hover {
+    background-color: #005F83;
+}
